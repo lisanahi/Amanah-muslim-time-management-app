@@ -1,6 +1,6 @@
 # Amanah – Salah-Centered Time Management
 
-Amanah is a Salah (prayer) centered time management web application that helps Muslims organize their daily activities around prayer times.
+Amanah is a Salah (prayer) centered time management app that helps Muslims organize their daily activities around prayer times.
 The application combines a dynamic 12-hour circular clock, prayer time integration, and an activity planner to provide a visual overview of the day.
 Developed as part of a university assignment exploring AI-assisted software development.
 
@@ -16,14 +16,17 @@ Developed as part of a university assignment exploring AI-assisted software deve
 
 ## Getting Started
 
-Prerequisites: Node.js and npm
+**Prerequisites**: Node.js and npm
+
 Install dependencies and start the development server:
-npm install
-npm run dev
+
+- npm install
+- npm run dev
 
 Open the local URL provided by Vite (typically http://localhost:5173).
 
 To create a production build:
+
 npm run build
 
 ## AI-Assisted Development
@@ -35,17 +38,14 @@ ChatGPT was used throughout the development process, including:
 - API integration: Assisting with retrieving and processing prayer times from AlAdhan.
 - Debugging and refinement: Identifying issues, revising implementations, and improving the user interface through iterative feedback.
 
-## Development Process
-The development followed an iterative AI-assisted workflow:
-1. Define the intended functionality and requirements.
-2. Generate or modify implementations with AI assistance.
-3. Integrate and test the changes locally.
-4. Identify unexpected behavior and refine the solution through further prompts.
-A key challenge was ensuring accurate positioning of time-based elements on the circular clock, particularly across midnight and during transitions between displayed hours.
-AI-generated solutions required multiple iterations and testing to achieve the intended behavior.
 
-## Academic Context
-This project was developed for a university assignment investigating the practical use of generative AI in application development.
-The project explores both the capabilities and limitations of AI-generated code, with an emphasis on iterative development, testing, and human oversight.
+## Challenges and Reflections
+One of the main challenges was implementing the circular clock, particularly converting time values into angular positions and handling transitions across midnight.
+
+Accurately positioning activities and prayer-related markers required several iterations.
+
+While AI accelerated the development process, generated solutions did not always match the intended behavior. Testing, debugging, and clear communication of requirements remained essential.
+
+The project demonstrated both the potential and limitations of AI-assisted software development.
 
 
