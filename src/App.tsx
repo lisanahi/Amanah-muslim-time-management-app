@@ -60,13 +60,7 @@ const polar = (angle: number, r: number) => ({
   x: 300 + Math.sin((angle * Math.PI) / 180) * r,
   y: 300 - Math.cos((angle * Math.PI) / 180) * r,
 });
-const wedge = (a: number, b: number, outer: number, inner: number) => {
-  const p = polar(a, outer),
-    q = polar(b, outer),
-    r = polar(b, inner),
-    s = polar(a, inner);
-  return `M ${p.x} ${p.y} A ${outer} ${outer} 0 ${b - a > 180 ? 1 : 0} 1 ${q.x} ${q.y} L ${r.x} ${r.y} A ${inner} ${inner} 0 ${b - a > 180 ? 1 : 0} 0 ${s.x} ${s.y} Z`;
-};
+
 // Smooth, pointed activity endings inspired by the original sketch.
 const ribbon = (
   a: number,
