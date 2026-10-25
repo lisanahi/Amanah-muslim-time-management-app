@@ -1,4 +1,4 @@
-# Amanah – Salah-Centered Time Management
+# Amanah – time management
 
 Amanah is a Salah (prayer) centered time management app that helps Muslims organize their daily activities around prayer times.
 The application combines a dynamic 12-hour circular clock, prayer time integration, and an activity planner to provide a visual overview of the day.
